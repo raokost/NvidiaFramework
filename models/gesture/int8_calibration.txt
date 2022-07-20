@@ -1,0 +1,62 @@
+TRT-8001-EntropyCalibration2
+input_1: 3be2d823
+convolution_output24: 3d539ca4
+activation_1_1/Relu:0: 3d3b02ea
+convolution_output22: 3cf80575
+convolution_output23: 3d81e360
+activation_2_1/Relu:0: 3d26a244
+convolution_output21: 3d805e81
+add_1_1/add:0: 3d77f620
+activation_3_1/Relu:0: 3d6b565c
+convolution_output19: 3d32b522
+convolution_output20: 3d6ecabb
+activation_4_1/Relu:0: 3d4021a8
+convolution_output18: 3d58e973
+add_2_1/add:0: 3d996c3c
+activation_5_1/Relu:0: 3d8e74cd
+convolution_output16: 3d00ab34
+convolution_output17: 3d29987a
+activation_6_1/Relu:0: 3d28f31c
+convolution_output15: 3d41fa91
+add_3_1/add:0: 3d747313
+activation_7_1/Relu:0: 3d747313
+convolution_output13: 3cfadda3
+convolution_output14: 3d14fac7
+activation_8_1/Relu:0: 3d0471ad
+convolution_output12: 3d212cab
+add_4_1/add:0: 3d588500
+activation_9_1/Relu:0: 3d673703
+convolution_output10: 3cf102ee
+convolution_output11: 3d16f25d
+activation_10_1/Relu:0: 3d17d052
+convolution_output9: 3d21fb6a
+add_5_1/add:0: 3d601491
+activation_11_1/Relu:0: 3d51e1ea
+convolution_output7: 3d117a7b
+convolution_output8: 3d05094d
+activation_12_1/Relu:0: 3cdca9fa
+convolution_output6: 3d1bc7f2
+add_6_1/add:0: 3d56ea69
+activation_13_1/Relu:0: 3d5d188e
+convolution_output4: 3d01bce2
+convolution_output5: 3d0b5f0c
+activation_14_1/Relu:0: 3ce68cc8
+convolution_output3: 3d44d8e8
+add_7_1/add:0: 3d6c20a0
+activation_15_1/Relu:0: 3d48c0a8
+convolution_output1: 3d3b9b1b
+convolution_output2: 3d1fae28
+activation_16_1/Relu:0: 3d1320a5
+convolution_output: 3d9c5f0d
+add_8_1/add:0: 3dd148dc
+activation_17_1/Relu:0: 3ddfe38e
+activation_17_1/Relu:0_pooling0: 3ddfe38e
+average_pooling2d_1_1/AvgPool:0_permuted: 3d2681c3
+flatten_1/Reshape:0: 3d2681c3
+(Unnamed Layer* 64) [Shuffle]_output: 3d2681c3
+(Unnamed Layer* 65) [Fully Connected]_output: 3ddf662e
+dense_10: 3ddf662e
+(Unnamed Layer* 70) [Constant]_output: 38797266
+(Unnamed Layer* 71) [Shuffle]_output: 38797266
+biased_tensor_name: 3ddf4c77
+activation_18: 3c050032
